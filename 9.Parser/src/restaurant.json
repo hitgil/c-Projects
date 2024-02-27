@@ -1,0 +1,74 @@
+[
+  {
+    "restaurantName": "The Bangalore Bistro",
+    "location": "Bangalore, India",
+    "cuisine": "Indian Fusion",
+    "ratings": {
+      "Google": 4.5,
+      "Swiggy": 4.0,
+      "Zomato": 4.3
+    },
+    "contact": {
+      "phone": "+91 12345 67890",
+      "email": "info@bangalorebistro.com",
+      "website": "http://www.bangalorebistro.com"
+    },
+    "popularDishes": ["Butter Chicken", "Paneer Tikka", "Biryani", "Gulab Jamun"],
+    "isVegetarianFriendly": true,
+    "hasOutdoorSeating": false
+  },
+  {
+    "restaurantName": "Garden City Grills",
+    "location": "Bangalore, India",
+    "cuisine": "Barbecue & Grills",
+    "ratings": {
+      "Google": 4.6,
+      "Swiggy": 4.2,
+      "Zomato": 4.4
+    },
+    "contact": {
+      "phone": "+91 98765 43210",
+      "email": "contact@gardencitygrills.com",
+      "website": "http://www.gardencitygrills.com"
+    },
+    "popularDishes": ["Grilled Lamb Chops", "BBQ Chicken", "Smoked Ribs", "Grilled Vegetables"],
+    "isVegetarianFriendly": true,
+    "hasOutdoorSeating": true
+  },
+  {
+    "restaurantName": "Cafe Lotus Leaf",
+    "location": "Bangalore, India",
+    "cuisine": "Cafe & Continental",
+    "ratings": {
+      "Google": 4.7,
+      "Swiggy": 4.1,
+      "Zomato": 4.5
+    },
+    "contact": {
+      "phone": "+91 23456 78901",
+      "email": "hello@cafelotusleaf.com",
+      "website": "http://www.cafelotusleaf.com"
+    },
+    "popularDishes": ["Eggs Benedict", "Blueberry Pancakes", "Ceasar Salad", "Caramel Latte"],
+    "isVegetarianFriendly": true,
+    "hasOutdoorSeating": true
+  },
+  {
+    "restaurantName": "Spice Symphony",
+    "location": "Bangalore, India",
+    "cuisine": "South Indian",
+    "ratings": {
+      "Google": 4.4,
+      "Swiggy": 4.3,
+      "Zomato": 4.6
+    },
+    "contact": {
+      "phone": "+91 34567 89012",
+      "email": "info@spicesymphony.com",
+      "website": "http://www.spicesymphony.com"
+    },
+    "popularDishes": ["Masala Dosa", "Hyderabadi Biryani", "Kerala Fish Curry", "Rasam"],
+    "isVegetarianFriendly": true,
+    "hasOutdoorSeating": false
+  }
+]

@@ -1,0 +1,23 @@
+<restaurant>
+    <restaurantName>The Bangalore Bistro</restaurantName>
+    <location>Bangalore, India</location>
+    <cuisine>Indian Fusion</cuisine>
+    <ratings>
+        <Google>4.5</Google>
+        <Swiggy>4.0</Swiggy>
+        <Zomato>4.3</Zomato>
+    </ratings>
+    <contact>
+        <phone>+91 12345 67890</phone>
+        <email>info@bangalorebistro.com</email>
+        <website>http://www.bangalorebistro.com</website>
+    </contact>
+    <popularDishes>
+        <dish>Butter Chicken</dish>
+        <dish>Paneer Tikka</dish>
+        <dish>Biryani</dish>
+        <dish>Gulab Jamun</dish>
+    </popularDishes>
+    <isVegetarianFriendly>true</isVegetarianFriendly>
+    <hasOutdoorSeating>false</hasOutdoorSeating>
+</restaurant>

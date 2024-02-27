@@ -1,15 +1,36 @@
-// bank.h
-#pragma once
+#ifndef BANK_H
+#define BANK_H
 
-#include "account.h"
-#include <vector>
+#include "Ibank.h"
+#include <string>
 
-class Bank
+class Bank : public Ibank
 {
 private:
-    std::vector<Account> accounts;
+    static const int MAX_ACCOUNTS = 100;
+
+    struct Account
+    {
+        int accountId;
+        std::string name;
+        double balance;
+        bool isActive;
+
+        Account() : accountId(-1), balance(0.0), isActive(false) {}
+    };
+
+    Account accounts[MAX_ACCOUNTS];
+
+
+    int findAccountIndex(int accountId);
 
 public:
-    Account *createAccount(int accNumber, int pin);
-    Account *findAccount(int accNumber);
+    bool doesUserExist(int userId);
+    void deposit(int accountId, double amount) override;
+    void withdraw(int accountId, double amount) override;
+    double getBalance(int accountId)  override;
+    void createAccount(int accountId,  std::string &name) override;
+    void deleteAccount(int accountId) override;
 };
+
+#endif 

@@ -1,0 +1,5 @@
+restaurantName,location,cuisine,GoogleRating,SwiggyRating,ZomatoRating,phone,email,website,popularDishes,isVegetarianFriendly,hasOutdoorSeating
+The Bangalore Bistro,Bangalore, India,Indian Fusion,4.5,4.0,4.3,+91 12345 67890,info@bangalorebistro.com,http://www.bangalorebistro.com,"Butter Chicken, Paneer Tikka, Biryani, Gulab Jamun",true,false
+Garden City Grills,Bangalore, India,Barbecue & Grills,4.6,4.2,4.4,+91 98765 43210,contact@gardencitygrills.com,http://www.gardencitygrills.com,"Grilled Lamb Chops, BBQ Chicken, Smoked Ribs, Grilled Vegetables",true,true
+Cafe Lotus Leaf,Bangalore, India,Cafe & Continental,4.7,4.1,4.5,+91 23456 78901,hello@cafelotusleaf.com,http://www.cafelotusleaf.com,"Eggs Benedict, Blueberry Pancakes, Ceasar Salad, Caramel Latte",true,true
+Spice Symphony,Bangalore, India,South Indian,4.4,4.3,4.6,+91 34567 89012,info@spicesymphony.com,http://www.spicesymphony.com,"Masala Dosa, Hyderabadi Biryani, Kerala Fish Curry, Rasam",true,false
